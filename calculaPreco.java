@@ -24,9 +24,10 @@ public class Produto {
 
     public static void main(String[] args) {
 
-        Produto produto = new Produto("Fone de ouvido", 200, 15);
-
-        System.out.printf("Preço final de %s: R$ %.2f%n", produto.nome, produto.calcularPrecoFinal());
+        Produto produto = new Produto("Fone de ouvido", 200, 25);
+        
+        System.out.printf("Preco inicial de %s: R$ %.2f%n", produto.nome, produto.preco);
+        System.out.printf("Preco final de %s: R$ %.2f%n", produto.nome, produto.calcularPrecoFinal());
 
     }
 
