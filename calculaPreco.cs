@@ -20,9 +20,10 @@ class Program
         {
             Nome = "Fone de ouvido",
             Preco = 200,
-            Desconto = 15
+            Desconto = 25
         };
-    
+        
+        Console.WriteLine($"Preco inicial de {produto.Nome}: R$ {produto.Preco:F2}");
         Console.WriteLine($"Preco final de {produto.Nome}: R$ {produto.CalcularPrecoFinal():F2}");
     }
 }
