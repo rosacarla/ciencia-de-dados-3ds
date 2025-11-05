@@ -1,4 +1,4 @@
-# Define função para calcuclar preço final
+# Define função para calcular preço final
 def calcular_preco_final(nome, preco, desconto=0):
     preco_final = preco - (preco * desconto / 100)
     print(f"Preço inicial de {nome} R$ {preco:.2f}")
