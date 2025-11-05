@@ -15,7 +15,7 @@ function calcularPrecoFinal(produto: Produto): number {
 const produto1: Produto = {
   nome: "Fone de ouvido",
   preco: 200,
-  desconto: 15
+  desconto: 25
 };
 console.log(`Preço inicial de ${produto1.nome}: R$ ${produto1.preco.toFixed(2)}`);
 console.log(`Preço final de ${produto1.nome}: R$ ${calcularPrecoFinal(produto1).toFixed(2)}`);
